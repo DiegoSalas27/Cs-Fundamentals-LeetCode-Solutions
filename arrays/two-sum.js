@@ -22,7 +22,7 @@ const solution1 = function(nums, target) { // brute force solution. T: O (n ^ 2)
   in our hash table, if that key is found that would mean that we have indeed captured that value previously. 
   This simple addition of a hash table can help us improve our time complexity to O (n). However, the space 
   complexity would be increased by the number of elements in the array we are given: O (n). In general, 
-  there is a tradeof between both time complexity and space complexity. It depends on the usecase to know 
+  there is a tradeof between time complexity and space complexity. It depends on the usecase to know 
   how to approach the problem.
 */
 
