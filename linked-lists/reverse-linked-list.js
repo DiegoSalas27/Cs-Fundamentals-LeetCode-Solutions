@@ -40,7 +40,7 @@ const linkedList = [5,4,3,2,1].reduce((acc, val) => new Node(val, acc), null)
   whenever we lose the reference to an object in memory, this object gets automatically garbage collected.
 
   Because we traverse a linked list iteratively, this operation takes a time of O (n), and because
-  we work on the same list given, and we don't create additional memory that scalates with out input, 
+  we work on the same list given, and we don't create additional memory that scales with the input given, 
   our space complexity remains constant O (1).
 */
 
