@@ -60,7 +60,7 @@ const linkedList = [5,4,3,2,1].reduce((acc, val) => new Node(val, acc), null)
   we are not creating structures that scale with the input given (we just use pointers).
 */
 
-const solution = function(head, left, right) {
+const solution = function(head, left, right) { // T: O (n), S: O (1)
   let currentNode = head
   let startNode = head
 
