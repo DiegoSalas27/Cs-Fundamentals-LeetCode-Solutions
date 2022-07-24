@@ -10,7 +10,7 @@
   the array all the way to the left and all the way to the right for every index (T: O (n ^ 2)).
 */
 
-const solution1 = function(height) { // brufe force solution. T: O (n ^ 2), S: O (1)
+const solution1 = function(height) { // brute force solution. T: O (n ^ 2), S: O (1)
   let waterContained = 0
 
   for (let i = 0; i < height.length; i++) {
