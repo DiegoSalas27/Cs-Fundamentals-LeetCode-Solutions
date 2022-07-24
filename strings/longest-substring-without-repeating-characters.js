@@ -19,7 +19,7 @@
   The time complexity for this solution is: T: O (n ^ 2), space complexity is: S: O (1)
 */
 
-const solution1 = function(s) { // brute force solution T: O (n), S: O (n)
+const solution1 = function(s) { // brute force solution T: O (n ^ 2), S: O (n)
   if (s.length <= 1) return s.length
 
   let longest = 0
