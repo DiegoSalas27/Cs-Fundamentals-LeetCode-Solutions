@@ -38,10 +38,10 @@ const createCycle = function(head, l, r) {
   while loop, then this means we have found a cycle. From this 'meetingPoint' we can create an inner while
   loop where we can use the head node given and move it one node to its right per iteration, and the 
   meetingPoint node moves also one node to its right per iteration. When both pointers coincide on the same
-  node. Then that node will be the start of the cycle and that is what we return.
+  node, then that node will be the start of the cycle and that is what we return.
 */
 
-const solution = function(head) {
+const solution = function(head) { // T: O (n), S: O (1)
   if (!head) return null
 
   let tortoise = head
