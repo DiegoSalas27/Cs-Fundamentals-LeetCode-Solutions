@@ -34,11 +34,11 @@ const solution1 = function(heights) { // brute force solution. T: O (n ^ 2), S: 
   calculate at this point).
 
   Shifting pointers is a technique that could be used in many different problems that involve using arrays 
-  and strings. However, depending on the problem, the way to we place and move the left and right pointers 
+  and strings. However, depending on the problem, the way we place and move the left and right pointers 
   will differ. Some problems can also force us to use more than just 2 pointers.
 */
 
-const solution2 = function(heights) { // T: O (n), S: O (n)
+const solution2 = function(heights) { // greedy approach T: O (n), S: O (n)
   let left = 0, right = heights.length - 1,
   maxArea = 0
 
