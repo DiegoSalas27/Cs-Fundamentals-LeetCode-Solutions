@@ -18,7 +18,7 @@
   result array for each level we are currently iterating. We can do this using a queue and a while loop that
   will stop the traversal when the queue is empty.
 
-  This solution will give us an O (n) time complexity and an O (n/2) space complexity, given that we store
+  This solution will give us an O (n) time complexity and an O (n) space complexity, given that we store
   in our result array all of the nodes.
 
   Note: while this implementation will use an array to process elements in our queue. The shift method will
@@ -28,7 +28,7 @@
 
 import { BinarySearchTree } from '../../algorithms/binary-trees/binary-tree.mjs'
 
-const solution = function(root) {
+const solution = function(root) { // T: O (n), S: O (n)
   if (!root) return []
 
   let queue = [root]
