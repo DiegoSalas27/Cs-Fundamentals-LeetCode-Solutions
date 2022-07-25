@@ -59,7 +59,7 @@ class TreeNode {
   add to the previousLevelNodes the index of the right most node we have found and that should be our answer.
 */
 
-const solution = function(root) {
+const solution = function(root) { // T: O (log n), S: O (1)
   if (!root) return 0
 
   const height = getHeight(root)
