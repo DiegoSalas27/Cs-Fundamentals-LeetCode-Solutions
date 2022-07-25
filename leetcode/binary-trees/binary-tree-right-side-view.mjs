@@ -6,6 +6,20 @@
   preorder traversal: meaning that we will push into our result array a node value, before looking at its
   left and right children.
 
+  If the length of the result array is equal to the level of the binary tree we are currently at, we want
+  to push that node value into our array, because there has been no node at this level pushed into our 
+  array, and if we always traverse to the right first, we will make sure we will always push the right most
+  node at each level. Here is an example
+
+    Example: 
+          3      level = 0, result = [], push node value in array -> result [3] 
+        /   \
+      9      20  level = 1, result = [3], push node value in array -> result [3, 20] 
+            /  \
+           15   7  level = 2, result = [3, 20], push node value in array -> result [3, 20, 7] 
+               /
+              3  level = 3, result = [3, 20, 7], push node value in array -> result [3, 20, 7, 3] 
+
   This recursive algorithm will take a time complexity of O (n) given that we will visit every node in the
   binary tree. In terms of space complexity, it will take O (n), because we will not only store all of the
   node values in the binary tree in our result array if it is skewed, but also because of the number of 
