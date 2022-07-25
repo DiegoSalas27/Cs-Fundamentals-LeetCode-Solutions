@@ -26,7 +26,7 @@
   recursive calls.
 */
 
-import { BinarySearchTree } from '../../algorithms/binary-trees/binary-tree.mjs'
+import { BinarySearchTree } from '../../data-structures/binary-trees/binary-tree.mjs'
 
 const solution = function(root) { // T: O (n), S: O (n)
   if (!root) return []
