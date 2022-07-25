@@ -1,7 +1,7 @@
 /*
   Insertion sort works best with small arrays and also when they are sorted or almost sorted, running with a
   time complexity of O (n) if the array is already sorted. Insertion sort is an algorithm that uses a
-  variable that points to the last element of you subarray you have sorted so far (which is at the left side
+  variable that points to the last element of the subarray you have sorted so far (which is at the left side
   where you pointer that traverses the array is located at). If the element you are located right now is
   less that the pointer to the last element of this sorted (in place) subarray, then we want to locate it
   in its corresponsing position. This process will be executed iteratively
