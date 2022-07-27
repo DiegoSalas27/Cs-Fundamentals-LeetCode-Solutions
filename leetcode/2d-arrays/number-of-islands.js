@@ -41,7 +41,7 @@ const directions = [
   [-1, 0]
 ]
 
-const solution = function(grid) {
+const solution = function(grid) { // T: O (n * m), S: O (max (n, m))
   let numIslands = 0
 
   for (let row = 0; row < grid.length; row++) {
