@@ -89,7 +89,7 @@ const solution1 = function(matrix) { // T: O (n * m), S: O (n + m)
   the size of the input.
 */
 
-const solution2 = function(matrix) {
+const solution2 = function(matrix) { // T: O (n * m), S: O (1)
   let setRow0 = false, setCol0 = false
 
   for (let r = 0; r < matrix.length; r++) {
