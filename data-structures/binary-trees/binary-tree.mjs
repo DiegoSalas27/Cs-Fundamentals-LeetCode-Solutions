@@ -127,6 +127,7 @@ tree.insert(20);
 tree.insert(170);
 tree.insert(15);
 tree.insert(1);
+
 // console.log(JSON.stringify(traverse(tree.root), null, 2));
 // console.log(JSON.stringify(traverse(tree.lookup(20)), null, 2));
 // tree.remove(20);
