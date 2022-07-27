@@ -12,7 +12,7 @@ const linkedList = [5,4,3,2,1].reduce((acc, val) => new Node(val, acc), null)
 /*
   This problem is similar to the reverse linked list problem we saw before, but in here we are asked to
   reverse the linked list in between left and right indexes (starting from index 1). We are given 2 integers
-  left and right where left <= right and the head og a singly linked list. This is an example of how we
+  left and right where left <= right and the head of a singly linked list. This is an example of how we
   would reverse a singly linked list given:
 
   Example: left = 2, right = 4, head: 1 -> ...
@@ -26,7 +26,7 @@ const linkedList = [5,4,3,2,1].reduce((acc, val) => new Node(val, acc), null)
   How do we go about doing this? Well, we can create variables to reference critical nodes in our linked list
   so that we can linked them later once we have reversed a portion of the linked list. This variables are:
   a variable that will allow us to iterate over the linked list (call it currentNode), a variable that will
-  hold the reference to the previous node before the node were our reverse algorithm will start (call it
+  hold the reference to the previous node before the node where our reverse algorithm will start (call it
   startNode), a node that will hold a reference to the tail of the inner linked list we will reverse (call it
   tail) and another variable that will hold a reference to the head of the linked list and will be updated
   throughout our reversal process (call it previous).
