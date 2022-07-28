@@ -89,7 +89,7 @@ const dijkstra = function(times, n, k) { // T: O (E log V), S: O (V + E)
   The space complexity is O (V) which is what we use to initialize our distances array.
 */
 
-const bellmanFord = function(times, n, k) {
+const bellmanFord = function(times, n, k) { // T: O (V * E), S: O (V)
   // Initialize our distances array with Infinity
   let distances = new Array(n).fill(Infinity)
 
