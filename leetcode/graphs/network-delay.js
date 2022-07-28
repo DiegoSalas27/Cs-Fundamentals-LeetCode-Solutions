@@ -15,8 +15,8 @@
 
   There are two algorithms that can help us to determine the shortest path from a source node to all the
   vertices of a graph: Dijsktra's and Bellman-Ford. The difference between them is that when it comes to
-  a graph with positive weighted edges, Dijsktra's perform bettern than Bellmand-Ford. However, Bellmand-Ford
-  works also on graph with negative weights in which Dijsktra's does not. In addition, Bellmand-Ford could be
+  a graph with positive weighted edges, Dijsktra's perform better than Bellmand-Ford. However, Bellmand-Ford
+  works also on graphs with negative weights in which Dijsktra's does not. In addition, Bellmand-Ford could be
   use in a graph to detect if there are negative cycles (which is out of the scope of this problem).
 
   We will implement both algorithms to solve the Network Delay problem and we will analyze their run time
@@ -82,11 +82,37 @@ const dijkstra = function(times, n, k) { // T: O (E log V), S: O (V + E)
 }
 
 /*
-
+  Bellmand-Ford depends on dynammic programming by calculating the distance from one node to another
+  updating the distances array, and from that new updated distances, we calculate subsequent distances. In
+  here we are asked to find the shortest path (minimization question) which is what dynamic programming solves.
+  Bellmand-Ford time complexity is O (V * E) because we analyze all edged V - 1 times.
+  The space complexity is O (V) which is what we use to initialize our distances array.
 */
 
 const bellmanFord = function(times, n, k) {
+  // Initialize our distances array with Infinity
+  let distances = new Array(n).fill(Infinity)
 
+  // Set the k node distance = 0
+  distances[k - 1] = 0
+
+  // if we wanted to find a negative cycle we iterate n times instead of n - 1. We would then, check if 
+  // there was a value update in the last iteration. If there was, we found a negative cycle
+  for (let i = 0; i < n - 1; i++) { // we iterate as many nodes as we have - 1
+    let valueChanged = false
+    for (const [source, target, time] of times) { // we analyze every edge between nodes
+      if (distances[target - 1] > distances[source - 1] + time) { 
+        valueChanged = true
+        distances[target - 1] = distances[source - 1] + time
+      }
+    }
+
+    if (valueChanged === false) break // if no distances where updated after analyzing every edge we are done
+  }
+
+  let maxDistance = Math.max(...distances)
+
+  return maxDistance === Infinity ? -1: maxDistance
 }
 
 let n = 5,
@@ -102,5 +128,8 @@ times = [
   [3, 1, 5],
 ];
 
-const result = dijkstra(times, n, k)
-console.log(result)
+let result = dijkstra(times, n, k)
+console.log(result, '\n')
+
+result = bellmanFord(times, n, k)
+console.log(result, '\n')
