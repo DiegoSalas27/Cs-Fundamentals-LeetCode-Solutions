@@ -19,7 +19,7 @@
 
   From here, moving right to left we can see that 'd' and 'c' are not the same, meaning that if there is any
   common subsequence of characters they should be either in 'a' compared with 'abcd' or 'abc' compared with 
-  'ac'. In other words, whenever a character doesn't match, we have to choices to make. Let's look at it with
+  'ac'. In other words, whenever there is a mismatch, we have to choices to make. Let's look at it with
   and example:
                   
                                         LCS("ace", "abcde") // 3
