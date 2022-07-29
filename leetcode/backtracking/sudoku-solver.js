@@ -88,10 +88,14 @@
   column: Math.floor(5 / 3) = 1. 1 + 6 is 7. So, based on our column and row we can tell in which box
   we are currently at.
 
-  Let's go ahead and solve this problem
+  The time complexity of our solution is O (9! ^ 9), because for every value we place in a cell, the next 
+  will have 9 - 1 values to explore, the next one will have 9 - 2 values to explore, until the last column
+  for each row there is a run time 9!, because for every row there is a 9! time complexity, we will have
+  to multiply 9! 9 times which yields 9! ^ 9. The Space complexity is O (9 ^ 2) which is the size of the
+  board
 */
 
-const solution = function (board) {
+const solution = function (board) { // T: O (9! ^ 9), S: O (9 ^ 2)
   const len = board.length;
 
   // Create the arrays for applying the sudoku rules
