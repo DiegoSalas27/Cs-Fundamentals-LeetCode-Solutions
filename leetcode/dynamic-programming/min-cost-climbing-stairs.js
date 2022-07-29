@@ -366,7 +366,7 @@ console.log('recursion: top down with memoization', result, "\n");
   sequentially and we access calculated states from the table.
 
   The time complexity of this solution is O (n) because we iterate through the cost array once. The space
-  complexity is O (1) because we don't our space doesn't group with the size of the input.
+  complexity is O (1) because our space doesn't group with the size of the input.
 */
 
 const solution5 = function(cost) { // T: O (n), S: O (1)
