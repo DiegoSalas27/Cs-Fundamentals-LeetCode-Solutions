@@ -109,6 +109,7 @@ const solution2 = function(nums) { // T: O (n log n), S: O (n)
       const idx = getIdx(result, nums[i])
       result[idx] = nums[i]
     }
+    console.log(result)
   }
 
   return result.length
