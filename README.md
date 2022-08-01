@@ -46,4 +46,5 @@ Data structures implementation, algorithms and their applications to Leetcode mo
 | 12 |  Linked Lists | Linked List Cycle II | [Javascript](./leetcode/linked-lists/cycle-detection.js) | Medium | *O(n)* | *O(1)* |
 | 13 |  Stacks and Queues | Valid Parentheses | [Javascript](./leetcode/stacks-and-queues/valid-parenthesis.js) | Easy | *O(n)* | *O(n)* |
 | 14 |  Stacks and Queues | Minimum Remove to Make Valid Parentheses | [Javascript](./leetcode/stacks-and-queues/minimum-remove-to-make-valid-parenthesis.js) | Medium | *O(n)* | *O(n)* |
-
+| 15 |  Recursion | Find First and Last Position of Element in Sorted Array | [Javascript](./leetcode/recursion/find-first-and-last-position-of-element-in-sorted-array.js) | Medium | *O(log n)* | *O(1)* |
+| 16 |  Recursion | Kth Largest Element in an Array | [Javascript](./leetcode/recursion/kth-largest-element-in-an-array.js) | Medium | *O(n log n)* | *O(1)* |
