@@ -38,7 +38,7 @@ const solution1 = function(heights) { // brute force solution. T: O (n ^ 2), S: 
   will differ. Some problems can also force us to use more than just 2 pointers.
 */
 
-const solution2 = function(heights) { // greedy approach T: O (n), S: O (n)
+const solution2 = function(heights) { // greedy approach T: O (n), S: O (1)
   let left = 0, right = heights.length - 1,
   maxArea = 0
 
