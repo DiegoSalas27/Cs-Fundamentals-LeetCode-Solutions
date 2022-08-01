@@ -48,3 +48,8 @@ Data structures implementation, algorithms and their applications to Leetcode mo
 | 14 |  Stacks and Queues | Minimum Remove to Make Valid Parentheses | [Javascript](./leetcode/stacks-and-queues/minimum-remove-to-make-valid-parenthesis.js) | Medium | *O(n)* | *O(n)* |
 | 15 |  Recursion | Find First and Last Position of Element in Sorted Array | [Javascript](./leetcode/recursion/find-first-and-last-position-of-element-in-sorted-array.js) | Medium | *O(log n)* | *O(1)* |
 | 16 |  Recursion | Kth Largest Element in an Array | [Javascript](./leetcode/recursion/kth-largest-element-in-an-array.js) | Medium | *O(n log n)* | *O(1)* |
+| 17 |  Binary trees | Maximum Depth of Binary Tree | [Javascript](./leetcode/binary-trees/maximum-depth-of-binary-tree.mjs) | Easy | *O(n)* | *O(n)* |
+| 18 |  Binary trees | Binary Tree Level Order Traversal | [Javascript](./leetcode/binary-trees/level-order-of-binary-tree.mjs) | Medium | *O(n)* | *O(n)* |
+| 19 |  Binary trees | Binary Tree Right Side View | [Javascript](./leetcode/binary-trees/binary-tree-right-side-view.mjs) | Medium | *O(n)* | *O(n)* |
+| 20 |  Binary trees | Count Complete Tree Nodes | [Javascript](./leetcode/binary-trees/count-complete-tree-nodes.mjs) | Medium | *O(log n)* | *O(1)* |
+| 21 |  Binary trees | Validate Binary Search Tree | [Javascript](./leetcode/binary-trees/validate-binary-search-tree.mjs) | Medium | *O(n)* | *O(n)* |
