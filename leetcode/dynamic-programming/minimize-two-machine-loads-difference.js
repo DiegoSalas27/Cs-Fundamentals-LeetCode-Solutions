@@ -6,7 +6,7 @@
   disguised as assigning job to two machines such that the difference of the loads is minimum (offline
   algorithm).
 
-  Ok, so what we can do is to perform a very similar algorithm as the patition euqal subset sum problem.
+  Ok, so what we can do is to perform a very similar algorithm as the patition equal subset sum problem.
   That is, get total sum of the given array, divide it by 2, round number to lower integer, create the
   matrix of n rows and target + 1 columns. After the matrix has been filled, we can check for the first
   true value starting at the last column at the last row of the matrix, from there we move to the left until

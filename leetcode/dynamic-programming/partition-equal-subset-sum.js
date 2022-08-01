@@ -15,12 +15,37 @@
 
   Ok, what's next? Well, our target is to make for the sum of totalSum/2 right? We can create a matrix
   with rows of size n, and columns of size (totalSum/2) + 1. From here we can perform the same algorithm
-  as in the subset sum.
+  as in the subset sum. We can do this recursively top down using memoization or using the bottom up approach with tabulation.
 
   The time complexity of this solution is O (n * m). The space complexity is the same.
 */
 
-const solution = function(nums) { // T: O (n * m), S: O (n * m)
+const solution1 = function(nums) { // T: O (n * m), S: O (n * m)
+  const total = nums.reduce((acc, val) => acc + val, 0)
+
+  if (total % 2 > 0) return false
+
+  let target = total / 2
+
+  let dp = new Array(nums.length).fill(0).map(() => new Array(target + 1))
+
+  return rec (target, 0, nums.length, 0, nums, dp)
+}
+
+const rec = function(target, idx, n, sumSoFar, nums, dp) {
+  if (idx === n || sumSoFar > target) return false
+
+  if (dp[idx][sumSoFar] !== undefined) return dp[idx][sumSoFar] 
+
+  if (sumSoFar === target) return true
+
+  dp[idx][sumSoFar] = rec(target, idx + 1, n, sumSoFar + nums[idx], nums, dp) || 
+   rec(target, idx + 1, n, sumSoFar, nums, dp)
+
+  return dp[idx][sumSoFar]
+}
+
+const solution2 = function(nums) { // T: O (n * m), S: O (n * m)
   const total = nums.reduce((acc, val) => acc + val, 0)
 
   if (total % 2 > 0) return false
@@ -50,5 +75,8 @@ const solution = function(nums) { // T: O (n * m), S: O (n * m)
 
 let nums = [1,5,11,5]
  
-const result = solution(nums)
+let result = solution2(nums)
+console.log(result)
+
+result = solution1(nums)
 console.log(result)
