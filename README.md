@@ -31,7 +31,7 @@ Data structures implementation, algorithms and their applications to Leetcode mo
 
 ## Leetcode solutions
 | # | Category | Title | Solution | Dificulty | Time complexity | Space complexity |
-|---| -------- | ----- | -------- | --------- | --------------- | ---------------- |
+|---| :--------: | ----- | -------- | --------- | :---------------: | :----------------: |
 | 1 |  Arrays  | Two Sum | [Javascript](./leetcode/arrays/two-sum.js) | Easy | *O(n)* | *O(n)* |
 | 2 |  Arrays  | Container with most water | [Javascript](./leetcode/arrays/container-with-most-water.js) | Medium | *O(n)* | *O(1)* |
 | 3 |  Arrays  | Trapping Rain Water | [Javascript](./leetcode/arrays/trapping-rain-water.js) | Hard | *O(n)* | *O(1)* |
@@ -39,9 +39,11 @@ Data structures implementation, algorithms and their applications to Leetcode mo
 | 5 |  Strings  | Valid Palindrome II | [Javascript](./leetcode/strings/valid-palindrome-ii.js) | Easy | *O(n)* | *O(1)* |
 | 6 |  Strings  | Backspace String Compare | [Javascript](./leetcode/strings/backspace-string-compare.js) | Easy | *O(n)* | *O(1)* |
 | 7 |  Strings  | First Unique Character in a String | [Javascript](./leetcode/strings/first-unique-character-in-a-string.js) | Easy | *O(n)* | *O(n)* |
-| 8 |  Strings  | Longest Substring Without Repeating Characters | [Javascript](./leetcode/strings/longest-substring-without-repeating-characters.js) | Easy | *O(n)* | *O(n)* |
+| 8 |  Strings  | Longest Substring Without Repeating Characters | [Javascript](./leetcode/strings/longest-substring-without-repeating-characters.js) | Medium | *O(n)* | *O(n)* |
 | 9 |  Linked Lists | Reverse Linked List | [Javascript](./leetcode/linked-lists/reverse-linked-list.js) | Easy | *O(n)* | *O(1)* |
-| 10 |  Linked Lists | Reverse Linked List II | [Javascript](./leetcode/linked-lists/reverse-linked-list-ii.js) | Easy | *O(n)* | *O(1)* |
-| 11 |  Linked Lists | Flatten a Multilevel Doubly Linked List | [Javascript](./leetcode/linked-lists/flatten-a-multilevel-doubly-linked-list.js) | Easy | *O(n)* | *O(1)* |
-| 12 |  Linked Lists | Linked List Cycle II | [Javascript](./leetcode/linked-lists/cycle-detection.js) | Easy | *O(n)* | *O(1)* |
+| 10 |  Linked Lists | Reverse Linked List II | [Javascript](./leetcode/linked-lists/reverse-linked-list-ii.js) | Medium | *O(n)* | *O(1)* |
+| 11 |  Linked Lists | Flatten a Multilevel Doubly Linked List | [Javascript](./leetcode/linked-lists/flatten-a-multilevel-doubly-linked-list.js) | Medium | *O(n)* | *O(1)* |
+| 12 |  Linked Lists | Linked List Cycle II | [Javascript](./leetcode/linked-lists/cycle-detection.js) | Medium | *O(n)* | *O(1)* |
+| 13 |  Stacks and Queues | Valid Parentheses | [Javascript](./leetcode/stacks-and-queues/valid-parenthesis.js) | Easy | *O(n)* | *O(n)* |
+| 14 |  Stacks and Queues | Minimum Remove to Make Valid Parentheses | [Javascript](./leetcode/stacks-and-queues/minimum-remove-to-make-valid-parenthesis.js) | Medium | *O(n)* | *O(n)* |
 
