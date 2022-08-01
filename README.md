@@ -53,3 +53,9 @@ Data structures implementation, algorithms and their applications to Leetcode mo
 | 19 |  Binary trees | Binary Tree Right Side View | [Javascript](./leetcode/binary-trees/binary-tree-right-side-view.mjs) | Medium | *O(n)* | *O(n)* |
 | 20 |  Binary trees | Count Complete Tree Nodes | [Javascript](./leetcode/binary-trees/count-complete-tree-nodes.mjs) | Medium | *O(log n)* | *O(1)* |
 | 21 |  Binary trees | Validate Binary Search Tree | [Javascript](./leetcode/binary-trees/validate-binary-search-tree.mjs) | Medium | *O(n)* | *O(n)* |
+| 22 |  2D arrays | Number of Islands | [Javascript](./leetcode/2d-arrays/number-of-islands.js) | Medium | *O (n * m)* | *O (max (n, m))* |
+| 23 |  2D arrays | Rotting Oranges | [Javascript](./leetcode/2d-arrays/rotting-oranges.js) | Medium | *O (n * m)* | *O (n * m)* |
+| 24 |  2D arrays | Walls and Gates | [Javascript](./leetcode/2d-arrays/walls-and-gates.js) | Medium | *O (n * m)* | *O (n * m)* |
+| 25 |  2D arrays | Transpose Matrix | [Javascript](./leetcode/2d-arrays/transpose-matrix.js) | Easy | *O (n * m)* | *O (n * m)* |
+| 26 |  2D arrays | Set Matrix Zeroes | [Javascript](./leetcode/2d-arrays/set-matrix-zeroes.js) | Medium | *O (n * m)* | *O (1)* |
+| 27 |  2D arrays | Search a 2D Matrix | [Javascript](./leetcode/2d-arrays/search-a-2D-matrix.js) | Medium | *O (n + log(m))* | *O (1)* |
