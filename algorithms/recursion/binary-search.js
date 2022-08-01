@@ -20,9 +20,9 @@ var binarySearchRecursive = function(sortedArr, left, right, val) { // time comp
   let mid = Math.floor((left + right) / 2) // round down
 
   if (sortedArr[mid] < val) {
-    return binarySearch(sortedArr, mid + 1, right, val)
+    return binarySearchRecursive(sortedArr, mid + 1, right, val)
   } else if (sortedArr[mid] > val) {
-    return binarySearch(sortedArr, left, mid - 1, val)
+    return binarySearchRecursive(sortedArr, left, mid - 1, val)
   } else {
     return mid
   }
@@ -45,5 +45,10 @@ var binarySearchIterative = function(sortedArr, target) { // time complexity: O(
   return - 1
 }
 
-const result = binarySearchIterative([1,2,3,4,5,6,7], 5)
+let array = [1,2,3,4,5,6,7]
+
+let result = binarySearchIterative(array, 5)
+console.log(result)
+
+result = binarySearchRecursive(array, 0, array.length, 5)
 console.log(result)
