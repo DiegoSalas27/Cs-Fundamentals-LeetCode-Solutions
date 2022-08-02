@@ -62,3 +62,19 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | 28 |  Graphs | Time Needed to Inform All Employees | [Javascript](./leetcode/graphs/time-needed-to-inform-all-employees.js) | Medium | *O(n)* | *O(n)* |
 | 29 |  Graphs | Course Schedule | [Javascript](./leetcode/graphs/course-schedule.js) | Medium | *O(v + e)* | *O(v + e)* |
 | 30 |  Graphs | Network Delay Time | [Javascript](./leetcode/graphs/network-delay.js) | Medium | *O(e + log v)* | *O(v + e)* |
+| 31 |  Dynamic Programming | Min Cost Climbing Stairs | [Javascript](./leetcode/dynamic-programming/min-cost-climbing-stairs.js) | Easy | *O(n)* | *O(1)* |
+| 32 |  Dynamic Programming | Knight Probability in Chessboard | [Javascript](./leetcode/dynamic-programming/knight-probability-in-chessboard.js) | Medium | *O(k * n ^ 2)* | *O(k * n ^ 2)* |
+| 33 |  Dynamic Programming | Best Time to Buy and Sell Stock | [Javascript](./leetcode/dynamic-programming/best-time-to-buy-and-sell-stock.js) | Easy | *O(n)* | *O(1)* |
+| 34 |  Dynamic Programming | Coin Change | [Javascript](./leetcode/dynamic-programming/coin-change.js) | Medium | *O(n * amount)* | *O(amount)* |
+| 35 |  Dynamic Programming | House Robber | [Javascript](./leetcode/dynamic-programming/house-robber.js) | Medium | *O(n)* | *O(1)* |
+| 36 |  Dynamic Programming | 0-1 Knapsack Problem | [Javascript](./leetcode/dynamic-programming/knapsack.js) | Medium | *O(n * w)* | *O(n)* |
+| 37 |  Dynamic Programming | Longest Common Subsequence | [Javascript](./leetcode/dynamic-programming/longest-common-subsequence.js) | Medium | *O(n * m)* | *O(n * m)* |
+| 38 |  Dynamic Programming | Longest Increasing Subsequence | [Javascript](./leetcode/dynamic-programming/longest-increasing-subsequence.js) | Medium | *O(n log n)* | *O(n)* |
+| 39 |  Dynamic Programming | Longest Palindromic Subsequence | [Javascript](./leetcode/dynamic-programming/longest-palindromic-subsequence.js) | Medium | *O(n ^ 2)* | *O(n ^ 2)* |
+| 40 |  Dynamic Programming | Longest Palindromic Substring | [Javascript](./leetcode/dynamic-programming/longest-palindromic-substring.js) | Medium | *O(n ^ 2)* | *O(1)* |
+| 41 |  Dynamic Programming | Maximum Subarray | [Javascript](./leetcode/dynamic-programming/maximum-subarray.js) | Medium | *O(n)* | *O(1)* |
+| 42 |  Dynamic Programming | Partition a set into two subsets such that the difference of subset sums is minimum | [Javascript](./leetcode/dynamic-programming/minimize-two-machine-loads-difference.js) | Hard | *O(n * m)* | *O(n * m)* |
+| 43 |  Dynamic Programming | Minimum Path Sum | [Javascript](./leetcode/dynamic-programming/minimum-path-sum.js) | Medium | *O(n * m)* | *O(1)* |
+| 44 |  Dynamic Programming | Palindromic Substrings | [Javascript](./leetcode/dynamic-programming/palindromic-substrings.js) | Medium | *O(n * 2)* | *O(1)* |
+| 45 |  Dynamic Programming | Partition Equal Subset Sum | [Javascript](./leetcode/dynamic-programming/partition-equal-subset-sum.js) | Medium | *O(n * m)* | *O(n * m)* |
+| 46 |  Dynamic Programming | Subset Sum | [Javascript](./leetcode/dynamic-programming/subset-sum.js) | Medium | *O(n * m)* | *O(n * m)* |
