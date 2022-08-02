@@ -1,4 +1,4 @@
-# Cs-Fundamentals-LeetCode-Solutions
+# Cs Fundamentals plus LeetCode Solutions
 Data structures, algorithms and their applications to Leetcode most well known problems with a walkthrough explanation.
 
 ## Directory tree
