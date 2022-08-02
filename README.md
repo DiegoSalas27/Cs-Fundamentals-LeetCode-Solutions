@@ -78,3 +78,7 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | 44 |  Dynamic Programming | Palindromic Substrings | [Javascript](./leetcode/dynamic-programming/palindromic-substrings.js) | Medium | *O(n * 2)* | *O(1)* |
 | 45 |  Dynamic Programming | Partition Equal Subset Sum | [Javascript](./leetcode/dynamic-programming/partition-equal-subset-sum.js) | Medium | *O(n * m)* | *O(n * m)* |
 | 46 |  Dynamic Programming | Subset Sum | [Javascript](./leetcode/dynamic-programming/subset-sum.js) | Medium | *O(n * m)* | *O(n * m)* |
+| 47 |  Backtracking | N-Queens | [Javascript](./leetcode/backtracking/n-queens.js) | Hard | *O(n!)* | *O(n ^ 2)* |
+| 48 |  Backtracking | Palindrome Partitioning | [Javascript](./leetcode/backtracking/palindrome-partitioning.js) | Medium | *O(n * 2 ^ n)* | *O(n)* |
+| 49 |  Backtracking | Partition to K Equal Sum Subsets | [Javascript](./leetcode/backtracking/partition-to-k-equal-sum-subsets.js) | Medium | *O(k * 2 ^ n)* | *O(n)* |
+| 50 |  Backtracking | Sudoku Solver | [Javascript](./leetcode/backtracking/sudoku-solver.js) | Hard | *O(9! ^ 9)* | *O(9 ^ 2)* |
