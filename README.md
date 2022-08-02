@@ -1,5 +1,5 @@
 # Cs-Fundamentals-LeetCode-Solutions
-Data structures implementation, algorithms and their applications to Leetcode most well known problems with a walkthrough explanation.
+Data structures, algorithms and their applications to Leetcode most well known problems with a walkthrough explanation.
 
 ## Directory tree
 | # | Title |
