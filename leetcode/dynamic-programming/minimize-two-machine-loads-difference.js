@@ -15,7 +15,7 @@
   assignment and that should be the minimum difference.
 */
 
-const solution = function(nums) {
+const solution = function(nums) { // T: O (n * m), S: O (n * m)
   const total = nums.reduce((acc, val) => acc + val, 0)
 
   let target = Math.floor(total / 2)

@@ -862,7 +862,7 @@
   }
 */
 
-const solution = function(n) {
+const solution = function(n) { // T: O (n!), S: O (n ^ 2)
   let queenPlacements = []
 
   let result = []

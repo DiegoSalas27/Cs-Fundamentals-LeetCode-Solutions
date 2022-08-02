@@ -16,7 +16,7 @@
   more than once, and if our solution doesn't work after n iteration we need to try a new one
 */
 
-const solution = function(nums, k) {
+const solution = function(nums, k) { // T: O (k * 2 ^ n), S: O (n)
   let total = nums.reduce((acc, val) => acc + val, 0)
 
   if (total % k > 0) return false
