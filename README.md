@@ -7,6 +7,7 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | 1 | [Algorithms](./algorithms)|
 | 2 | [Data Structures](./data-structures)|
 | 3 | [Leetcode solutions](./leetcode)|
+| 4 | [Interface design](./interface-design)|
 
 ## Algorithms
 | Technique | Algorithm | Solution | Time complexity | Space complexity |
@@ -90,3 +91,12 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | 48 |  Backtracking | Palindrome Partitioning | [Javascript](./leetcode/backtracking/palindrome-partitioning.js) | Medium | *O(n * 2 ^ n)* | *O(n)* |
 | 49 |  Backtracking | Partition to K Equal Sum Subsets | [Javascript](./leetcode/backtracking/partition-to-k-equal-sum-subsets.js) | Medium | *O(k * 2 ^ n)* | *O(n)* |
 | 50 |  Backtracking | Sudoku Solver | [Javascript](./leetcode/backtracking/sudoku-solver.js) | Hard | *O(9! ^ 9)* | *O(9 ^ 2)* |
+
+## Interface design
+| # | Category | Title | Solution 
+|---| :--------: | ----- | -------- | 
+| 1 |  Queue | Implementing queues using stacks | [Typescript](./interface-design/implement-queue-using-stacks.ts) |
+| 2 |  Naray tree / dfs traversal | Manager employee problem | [Typescript](./interface-design/manager-employee.ts) |
+| 3 |  Naray tree / dfs and bfs traversal | Manager employee II problem | [Typescript](./interface-design/manager-employee-II.ts) |
+| 4 |  Naray tree / dfs traversal | Monarchy problem | [Typescript](./interface-design/monarchy.ts) |
+| 5 |  Naray tree / dfs and bfs traversal | Monarchy II problem | [Typescript](./interface-design/monarchy-II.ts) |
