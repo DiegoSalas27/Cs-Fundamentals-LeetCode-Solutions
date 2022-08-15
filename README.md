@@ -30,6 +30,12 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | Graph | Non-linear data structure consisting of nodes and edges | Network communication, Data organization, flow control, etc. | [Javascript](./data-structures/graphs/graph.js) |
 | Array | Data structure in which elements are located sequentially in memory | Ordering elements, Store colleciton of data, etc. | [Typescript](./data-structures/array.ts) |
 | Hash table | O (1) run time data structure that holds key value pairs for efficient data storage | Dictionaries, Databases, etc | [Typescript](./data-structures/hash-table.ts) |
+| Linked List | Linear data structure consiting of a list of connected nodes | Queues, Doubly Linked Lists, Dynamic Memory Allocation, etc. | [Typescript](./data-structures/linked-list.ts) |
+| Doubly Linked list | Variation of Linked List that allows back and forth navigation | front and back navigation, browsers, thread scheduler | [Typescript](./data-structures/doubly-linked-list.ts) |
+| Stack | Linear data structure that holds linear, ordered sequence of elements (LIFO) | Evaluating expressions consisting of operators, backtracking, memory management| [Typescript](./data-structures/stack.ts) |
+| Queue | Linear data structure that holds linear, ordered sequence of elements (FIFO) | Resource scheduling, Semaphores, Mail Queues| [Typescript](./data-structures/queue.ts) |
+| Heap | Tree like Data structure for quick access to min or max values | Priority queues, Prim's algorithm, Dijkstra's algorithm, etc. | [Typescript](./data-structures/heap.ts) |
+| Trie | Tree data structure based on the prefix of a string | Search engines, Autcomplete, etc. | [Typescript](./data-structures/trie.ts) |
 
 ## Leetcode solutions
 | # | Category | Title | Solution | Dificulty | Time complexity | Space complexity |
