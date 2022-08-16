@@ -4,7 +4,7 @@ class QNode<T> {
 
 class Queue<T> {
   private length: number
-  constructor(public first: QNode<T> | null, public last: QNode<T> | null = null) {
+  constructor(public first: QNode<T> | null = null, public last: QNode<T> | null = null) {
     this.last = this.first
     this.length = 1
   }
