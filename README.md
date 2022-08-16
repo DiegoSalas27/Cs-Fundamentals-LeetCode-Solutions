@@ -28,6 +28,7 @@ Data structures, algorithms and their applications to Leetcode most well known p
 | Name | Description | Applications | Solution |
 | ---- | ----------- | ------------ | -------- |
 | Binary tree | A tree that has at most 2 children for any node | Binary search trees, Heaps, etc. | [Javascript](./data-structures/binary-trees/binary-tree.mjs) |
+| AVL tree | Self balancing BST| in memory sorts of sets, dictionaries, lookups in databases | [Typescript](./data-structures/binary-trees/avl-tree.ts) |
 | Graph | Non-linear data structure consisting of nodes and edges | Network communication, Data organization, flow control, etc. | [Javascript](./data-structures/graphs/graph.js) |
 | Array | Data structure in which elements are located sequentially in memory | Ordering elements, Store colleciton of data, etc. | [Typescript](./data-structures/array.ts) |
 | Hash table | O (1) run time data structure that holds key value pairs for efficient data storage | Dictionaries, Databases, etc | [Typescript](./data-structures/hash-table.ts) |
