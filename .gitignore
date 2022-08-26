@@ -3,3 +3,4 @@ data-structures/**/**.js
 amazon
 interface-design/**.js
 *.map
+.tmp.driveupload
