@@ -1,9 +1,9 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 /*
-  We are given an array of prices where prices[i] is the price og a given stock on the ith day. We want
+  We are given an array of prices where prices[i] is the price of a given stock on the ith day. We want
   to maximize the profit by choosing a single day to buy one stock and choosing a different day in the future
-  to set that stock. We are asked to return the maximum profit we can achieve. If no profit can be achieved
+  to sell that stock. We are asked to return the maximum profit we can achieve. If no profit can be achieved
   return 0.
 
   Example: 
